@@ -1,0 +1,134 @@
+<!--A product landing page for freecodecamp
+    06-21-2021  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beer Membership</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--header starts here-->
+  <header id="header">
+    <!--logo-->
+    <div class="logo">
+      <img
+        src="https://www.pngitem.com/pimgs/m/52-520839_transparent-beer-cup-clipart-beer-cup-logo-png.png"
+        alt="Beer logo"
+        id="header-img"
+        width="100"
+        height="75"
+      />
+    </div>
+    <!--navigation-->
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#about_us" class="nav-link">About Us</a></li>
+        <li><a href="#video_explanation" class="nav-link">How it Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header ends here-->
+
+  <!-- first section starts here-->
+  <section id="sign_up">
+    <!-- sign up email-->
+    <h2>Have the best beer in the barbecue!</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your e-mail address"
+        required
+      />
+      <input id="submit" type="submit" value="Cheers!" class="btn" />
+    </form>
+  </section>
+  <!-- first section ends here-->
+
+  <!-- second section starts here-->
+  <section id="about_us">
+    <h2>About Us</h2>
+    <p>
+      We are a small business located in Chicago,IL.Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+      culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. All sales
+      are final!!
+    </p>
+  </section>
+  <!-- second section ends here-->
+
+  <!-- third section starts here-->
+  <section id="video_explanation">
+    <!--video section-->
+    <iframe
+      id="video"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/-4l3QqZ2AHY?rel=0&amp;controls=0&amp;showinfo=0"
+      title="YouTube video player"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </section>
+  <!-- third section ends here-->
+
+  <!--fourth section starts here
+  each product has its own section-->
+  <section id="pricing">
+    <div class="product" id="6_pack">
+      <div class="membership_description">6-Pack Deal</div>
+      <h2>$20</h2>
+      <ul>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ul>
+      <button class="btn">Select</button>
+    </div>
+    <div class="product" id="12_pack">
+      <div class="membership_description">12-Pack Deal</div>
+      <h2>$30</h2>
+      <ul>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ul>
+      <button class="btn">Select</button>
+    </div>
+    <div class="product" id="24_pack">
+      <div class="membership_description">24-Pack Deal</div>
+      <h2>$45</h2>
+      <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Varieties of beer</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ul>
+      <button class="btn">Select</button>
+    </div>
+  </section>
+  <!--fourth section ends here-->
+
+  <!-- footer starts here-->
+  <footer>
+    <span>Copyright &copy;2021, Roberto Castaneda</span>
+  </footer>
+</html>
